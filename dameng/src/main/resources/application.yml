@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: SYSDBA
+    password: SYSDBA
+    url: jdbc:dm://xxxxx:55236/DMSERVER
+
+server:
+  port: 8081
+
+#swagger的api文档访问地址
+#swagger-ui.html
+springfox.documentation.swagger.v2.path: /api-docs
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
